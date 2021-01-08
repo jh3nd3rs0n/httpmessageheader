@@ -1,5 +1,7 @@
 # HttpMessageHeader
 
+[![Total alerts](https://img.shields.io/lgtm/alerts/g/jh3nd3rs0n/httpmessageheader.svg?logo=lgtm&logoWidth=18)](https://lgtm.com/projects/g/jh3nd3rs0n/httpmessageheader/alerts/) [![Language grade: Java](https://img.shields.io/lgtm/grade/java/g/jh3nd3rs0n/httpmessageheader.svg?logo=lgtm&logoWidth=18)](https://lgtm.com/projects/g/jh3nd3rs0n/httpmessageheader/context:java) [![Codacy Badge](https://app.codacy.com/project/badge/Grade/2ee3f3d4617f4ac989dd7cc21bc7e6fe)](https://www.codacy.com/gh/jh3nd3rs0n/httpmessageheader/dashboard?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=jh3nd3rs0n/httpmessageheader&amp;utm_campaign=Badge_Grade)
+
 HttpMessageHeader is a Java implementation of the HTTP/1.1 message header.
 
 ## Contents
