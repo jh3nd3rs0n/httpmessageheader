@@ -8,6 +8,7 @@ HttpMessageHeader is a Java implementation of the HTTP/1.1 message header.
 
 -   [Examples](#examples)
 -   [Requirements](#requirements)
+-   [Generating Javadocs](#generating-javadocs)
 -   [Automated Testing](#automated-testing)
 -   [Installing](#installing)
 -   [Building](#building)
@@ -99,16 +100,26 @@ HttpMessageHeader is a Java implementation of the HTTP/1.1 message header.
 
 ## Requirements
 
--   Apache Maven&#8482; 3.3.9 or higher (for automated testing, installing and building) 
+-   Apache Maven&#8482; 3.3.9 or higher (for generating javadocs, automated testing, installing, and building) 
 -   Java&#8482; SDK 1.8 or higher
 
-## Automated Testing
+## Generating Javadocs
 
-To run automated testing, run the following commands:
+To generate javadocs, run the following commands:
 
 ```bash
 
     cd httpmessageheader
+    mvn javadoc:javadoc
+
+```
+
+## Automated Testing
+
+To run automated testing, run the following command:
+
+```bash
+
     mvn test
 
 ```
