@@ -172,4 +172,4 @@ After running the aforementioned command, the jar file can be found in the follo
     
 ```
 
-`${VERSION}` would be replaced by the actual version shown within the name of the jar file.
+`${VERSION}` is replaced by the actual version shown within the name of the jar file.
