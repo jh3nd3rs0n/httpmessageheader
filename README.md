@@ -149,7 +149,7 @@ To add a dependency on HttpMessageHeader using Maven, use the following:
     <dependency>
     	<groupId>httpmessageheader</groupId>
     	<artifactId>httpmessageheader</artifactId>
-    	<version>1.0-SNAPSHOT</version>
+    	<version>1.0.0-SNAPSHOT</version>
     </dependency>
 
 ```
