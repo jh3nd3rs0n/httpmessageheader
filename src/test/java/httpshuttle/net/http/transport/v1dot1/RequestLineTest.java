@@ -4,9 +4,6 @@ import static org.junit.Assert.assertEquals;
 
 import org.junit.Test;
 
-import httpshuttle.net.http.transport.v1dot1.Method;
-import httpshuttle.net.http.transport.v1dot1.RequestLine;
-
 public class RequestLineTest {
 
 	@Test

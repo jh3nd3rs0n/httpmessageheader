@@ -4,8 +4,6 @@ import static org.junit.Assert.assertEquals;
 
 import org.junit.Test;
 
-import httpshuttle.net.http.transport.v1dot1.HeaderField;
-
 public class HeaderFieldTest {
 
 	@Test
