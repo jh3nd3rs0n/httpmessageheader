@@ -1,8 +1,8 @@
-# HttpMessageHeader
+# HttpShuttle
 
-[![Total alerts](https://img.shields.io/lgtm/alerts/g/jh3nd3rs0n/httpmessageheader.svg?logo=lgtm&logoWidth=18)](https://lgtm.com/projects/g/jh3nd3rs0n/httpmessageheader/alerts/) [![Language grade: Java](https://img.shields.io/lgtm/grade/java/g/jh3nd3rs0n/httpmessageheader.svg?logo=lgtm&logoWidth=18)](https://lgtm.com/projects/g/jh3nd3rs0n/httpmessageheader/context:java) [![Codacy Badge](https://app.codacy.com/project/badge/Grade/2ee3f3d4617f4ac989dd7cc21bc7e6fe)](https://www.codacy.com/gh/jh3nd3rs0n/httpmessageheader/dashboard?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=jh3nd3rs0n/httpmessageheader&amp;utm_campaign=Badge_Grade)
+[![Total alerts](https://img.shields.io/lgtm/alerts/g/jh3nd3rs0n/httpshuttle.svg?logo=lgtm&logoWidth=18)](https://lgtm.com/projects/g/jh3nd3rs0n/httpshuttle/alerts/) [![Language grade: Java](https://img.shields.io/lgtm/grade/java/g/jh3nd3rs0n/httpshuttle.svg?logo=lgtm&logoWidth=18)](https://lgtm.com/projects/g/jh3nd3rs0n/httpshuttle/context:java) [![Codacy Badge](https://app.codacy.com/project/badge/Grade/2ee3f3d4617f4ac989dd7cc21bc7e6fe)](https://www.codacy.com/gh/jh3nd3rs0n/httpshuttle/dashboard?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=jh3nd3rs0n/httpshuttle&amp;utm_campaign=Badge_Grade)
 
-HttpMessageHeader is a Java implementation of the HTTP/1.1 message header.
+HttpShuttle is a Java library of HTTP transport types.
 
 ## Contents
 
@@ -109,7 +109,7 @@ To generate javadocs, run the following commands:
 
 ```bash
 
-    cd httpmessageheader
+    cd httpshuttle
     mvn javadoc:javadoc
 
 ```
@@ -147,8 +147,8 @@ To add a dependency on HttpMessageHeader using Maven, use the following:
 ```xml
 
     <dependency>
-    	<groupId>httpmessageheader</groupId>
-    	<artifactId>httpmessageheader</artifactId>
+    	<groupId>httpshuttle</groupId>
+    	<artifactId>httpshuttle</artifactId>
     	<version>1.0.0-SNAPSHOT</version>
     </dependency>
 
@@ -168,7 +168,7 @@ After running the aforementioned command, the jar file can be found in the follo
 
 ```text
     
-    target/httpmessageheader-${VERSION}.jar
+    target/httpshuttle-${VERSION}.jar
     
 ```
 

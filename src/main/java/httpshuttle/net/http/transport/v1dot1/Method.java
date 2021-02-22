@@ -1,4 +1,4 @@
-package httpmessageheader;
+package httpshuttle.net.http.transport.v1dot1;
 
 import java.util.Arrays;
 import java.util.Iterator;

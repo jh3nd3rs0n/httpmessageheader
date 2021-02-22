@@ -1,8 +1,14 @@
-package httpmessageheader;
+package httpshuttle.net.http.transport.v1dot1;
 
 import static org.junit.Assert.assertEquals;
 
 import org.junit.Test;
+
+import httpshuttle.net.http.transport.v1dot1.HeaderField;
+import httpshuttle.net.http.transport.v1dot1.MessageHeader;
+import httpshuttle.net.http.transport.v1dot1.Method;
+import httpshuttle.net.http.transport.v1dot1.RequestLine;
+import httpshuttle.net.http.transport.v1dot1.StatusLine;
 
 public class MessageHeaderTest {
 

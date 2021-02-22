@@ -1,4 +1,4 @@
-package httpmessageheader;
+package httpshuttle.net.http.transport.v1dot1;
 
 import java.io.IOException;
 import java.io.Reader;

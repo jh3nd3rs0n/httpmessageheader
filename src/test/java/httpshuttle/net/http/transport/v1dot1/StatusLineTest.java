@@ -1,8 +1,10 @@
-package httpmessageheader;
+package httpshuttle.net.http.transport.v1dot1;
 
 import static org.junit.Assert.assertEquals;
 
 import org.junit.Test;
+
+import httpshuttle.net.http.transport.v1dot1.StatusLine;
 
 public class StatusLineTest {
 
