@@ -142,7 +142,7 @@ To install, run the following command:
 
 ```
 
-To add a dependency on HttpMessageHeader using Maven, use the following:
+To add a dependency on HttpShuttle using Maven, use the following:
 
 ```xml
 
@@ -156,7 +156,7 @@ To add a dependency on HttpMessageHeader using Maven, use the following:
 
 ## Building
 
-To build and package HttpMessageHeader as a jar file, run the following command:
+To build and package HttpShuttle as a jar file, run the following command:
 
 ```bash
 
