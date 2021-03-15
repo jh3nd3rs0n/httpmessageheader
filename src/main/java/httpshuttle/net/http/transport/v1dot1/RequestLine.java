@@ -37,7 +37,7 @@ public final class RequestLine extends StartLine {
 		Objects.requireNonNull(reqTarget);
 		String ver = httpVer;
 		if (ver == null) {
-			ver = httpVer;
+			ver = StringConstants.HTTP_VERSION;
 		}
 		if (reqTarget.length() == 0) {
 			throw new IllegalArgumentException(
@@ -83,7 +83,7 @@ public final class RequestLine extends StartLine {
 			String string = IoHelper.readWordFrom(reader, ' ');
 			String trimmedString = string.trim(); 
 			try {
-				meth = Method.getInstance(trimmedString);
+				meth = Method.valueOfString(trimmedString);
 			} catch (IllegalArgumentException e) {
 				throw new IOException(e);
 			}

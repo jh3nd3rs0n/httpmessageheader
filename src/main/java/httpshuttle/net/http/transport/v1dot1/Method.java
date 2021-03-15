@@ -22,7 +22,7 @@ public enum Method {
 	
 	TRACE("TRACE");
 	
-	public static Method getInstance(final String s) {
+	public static Method valueOfString(final String s) {
 		for (Method method : Method.values()) {
 			if (method.value.equals(s)) {
 				return method;
